@@ -9,9 +9,9 @@ import joblib
 # Load saved model and objects
 # -----------------------------
 
-model = joblib.load("C:/Users/jigya/Downloads/xgb_pm25_model.pkl")
-encoder = joblib.load("C:/Users/jigya/Downloads/encoder.pkl")
-feature_names = joblib.load("C:/Users/jigya/Downloads/feature_names.pkl")
+model = joblib.load("models/xgb_pm25_model.pkl")
+encoder = joblib.load("models/encoder.pkl")
+feature_names = joblib.load("models/feature_names.pkl")
 
 
 # -----------------------------
